@@ -1,7 +1,14 @@
 \section{Proposal}
 
 The body of your proposal. Below are some bullets for questions you should
-answers within your proposal.
+answers within your proposal. Figure~\ref{fig:example} contains fake information
+from a chart that will, with any luck contain some data from a measurement
+you've taken. TaMake sure that you adhere to good academic standards and cite all
+of the work relate to your project. For example if your project involves
+performance isolation on SmartNICs you might want to cite~\cite{fairnic}. See
+paper.bib for the format of \LaTeX references. Many academic papers will have
+bibtex entries posted near where you can download their pdf's online.
+
 
 \begin{itemize}
     \item{\todo{What is the question you want to answer}}
@@ -17,4 +24,20 @@ answers within your proposal.
     \includegraphics[width=0.45\textwidth]{fig/example.pdf}
     \caption{Example of a figure made with matplotlib. Found in fig/example.py. If you have a figure use vector graphics}
     \label{fig:example}
+    %%remove a bit of whitespace under the figure (for space saving)
+    \vspace*{-10.00mm}
 \end{figure}
+
+\begin{center}
+    \begin{table}
+    \begin{tabular}{ |c|c|c| }
+    \hline
+            & studied & $\neg$ studied \\ \hline
+    Midterm & Pass \includegraphics{fig/check.png} & Skimmed by \includegraphics{fig/almost.png} \\ \hline
+    Final   & Pass \includegraphics{fig/check.png} & See you next year \includegraphics {fig/fail.png} \\ \hline
+    \end{tabular}
+    \caption{Expected outcomes for various studying habits in 223B}
+    \label{tab:studyhabits}
+\end{table}
+\end{center}
+
